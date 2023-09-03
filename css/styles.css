@@ -1,0 +1,335 @@
+body {font-family: 'Roboto',sans-serif;
+color:#434455;
+background-color: #FFFFFF;}
+
+     /*Шапка header*/
+
+.logo{font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+    }
+
+    .endlogo{color: #2e2f42;
+    font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;}
+
+        .studio-footer{color: #f4f4fd;}
+
+    
+           .list {
+               list-style-type: none;
+               font-weight: 500;
+               color:#2e2f42 ;
+           }
+    
+           .list-nav {
+               font-family: Roboto;
+               font-size: 16px;
+               font-weight: 500;
+               line-height: 1.5;
+               /* 150% */
+               letter-spacing: 0.02em;
+           }
+    
+            .contact-nav {
+               font-family: normal;}
+    
+           .link {
+               font-family: Roboto;
+               font-size: 16px;;
+               font-weight: 500;
+               line-height: 1.5;
+               /* 150% */
+               letter-spacing: 0.02em;
+               color: #2e2f42;
+               list-style-type: none;
+               text-decoration: none;
+           }
+
+           .contact-info{color: #434455;}
+    
+           .link:hover,
+           .link:focus {
+               color: #404BBF
+           }
+
+           .top-link{background-color: #FFF;
+               font-style: normal;}
+
+      /* Hero section 1 */
+    
+    .hero-text{color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        /* 107.143% */
+        letter-spacing: 0.02em;}
+
+      .hero-section{background-color: #2E2F42;}
+
+    button {
+    cursor: pointer;
+    font-style: inherit;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+    button:hover,
+    button:focus {color: #404BBF;
+    color: #FFFFFF;
+    background-color: #404BBF;}
+    
+     /* Information Section 2 */
+
+    .title-name{color:#2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02em;}
+    
+    .title-info{color:#434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;}
+
+        .information{background-color: #FFF;}
+
+        /* Our team section 3 */
+
+        .our-team{background-color: #F4F4FD;}
+        
+        .name-section-team{color:#2E2F42;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.11;
+            /* 111.111% */
+            letter-spacing: 0.02em;
+            text-transform: capitalize;}
+            
+        .photo-team{background: #FFF;}
+        
+        .name-employee{color:#2E2F42;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            /* 120% */
+            letter-spacing: 0.02em;}
+
+        .info-employee{color:#434455;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            /* 150% */
+            letter-spacing: 0.02em;}
+
+            /* our portfolio section 4 */
+
+            .portfolio-list{color: #FFF;}
+
+            .name-section{color:#2E2F42;
+                text-align: center;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.11;
+                /* 111.111% */
+                letter-spacing: 0.02em;
+                text-transform: capitalize;}
+
+            .photo-portfolio{border: #E7E9FC;
+                background: #FFF;}
+
+            .name-portfolio-photo{color:#2E2F42;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.2;
+                /* 120% */
+                letter-spacing: 0.02em;}
+
+            .text-portfolio{color:#434455;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                /* 150% */
+                letter-spacing: 0.02em;}
+
+                /* footer logo */
+
+                .end-page{background: #2E2F42;}
+
+                .last-text{color:#F4F4FD;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    /* 150% */
+                    letter-spacing: 0.02em;}
+        
+
+
+       /* PAGE HEADER BLOCK */
+
+ h1, h2, h3, h4, h5, h5, p 
+{margin-top: 0;
+margin-bottom: 0;}
+
+ul, ol {margin-top: 0;
+ margin-bottom: 0;
+ padding-left: 0;}
+
+img {display: block;
+max-width: 100%;
+height: auto;}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:15px;
+    padding-right: 15px;}
+
+.page-header{ border-bottom: 1px solid  #E7E9FC;}
+
+ .page-header-container{display: flex;
+                        align-items: center; }
+
+ .top-nav{display: flex;
+        align-items: center;
+        margin-right: auto;}
+
+ .logo{margin-right: 76px;}
+    
+ .list-nav{display:flex;
+        gap: 40px;}
+
+.link{padding: 24px 0;}
+
+
+ .link-address{display: flex;
+            gap: 40px;
+            align-items: center;}
+       
+
+
+
+            /* HERO SECTION 1 */
+
+.hero-section{padding: 188px 0;
+    text-align: center;}            
+
+.hero-text{
+    max-width: 496px;
+    height: 120px;
+    margin-top: 188px;
+    margin-right:auto ;
+    margin-left:auto ;}
+
+.button{
+display: block;
+min-width: 169px;
+height: 56px;
+padding: 16px 32px;
+margin-top: 48px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 4px;
+border: none;}
+
+/* Section 2 */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+
+   .information{padding: 120px 0;}
+
+   .title-name{margin-bottom: 8px;}
+
+.information-list{display: flex;
+gap: 24px;}
+
+.link-information-list{width: calc((100% - 72px) / 4);}
+
+/* Section 3  OUR TEAM*/
+
+.our-team {padding: 120px 0;}
+
+.list-photo-team{display: flex;
+gap: 24px;}
+
+.photo-team{width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;}
+
+.name-section-team{margin-bottom: 72px;}
+
+.card-employee{padding-top:32px;
+padding-bottom: 32px;}
+
+.name-employee{margin-bottom: 8px;}
+
+
+/* SECTION 4 Portfolio */
+
+.portfolio-list{padding: 120px 0 120px 0;}
+
+.name-section{margin-bottom: 72px;}
+
+.photo-portfolio{width: calc((100% - 48px) / 3 );}
+
+.list-photo-portfolio{display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;}
+
+.info-port{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;}
+
+.name-portfolio-photo{margin-bottom: 8px}
+
+    
+
+/* FOOTER */
+
+.end-page{padding: 100px 0}
+
+.footer-logo{ display: inline-block;
+       margin-bottom: 16px;}
+
+.last-text{max-width: 264px;}
+
+
+
+
+
+
